@@ -13,7 +13,12 @@ def split2(text):
 
 
 if __name__ == '__main__':
-    split(input("Enter a word "))
-    split2(input("Enter a word "))
+    sentence = input("Enter a sentence: ")
+    if "\'" not in sentence:
+        print("Must have an apostraphe is sentence.")
+        exit(0)
+    else:
+        split(sentence)
+        split2(sentence)
 
 
