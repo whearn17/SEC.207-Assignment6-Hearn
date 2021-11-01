@@ -23,5 +23,5 @@ def pig_latin(text):
 
 
 if __name__ == '__main__':
-    print(pig_latin(input("Enter a message")))
+    print(pig_latin(input("Enter a message ")))
 
